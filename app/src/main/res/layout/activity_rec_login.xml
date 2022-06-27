@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/recipient_page_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:paddingTop="40dp"
+        android:layout_marginTop="250dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:background="@drawable/edit_text_style2"
+            android:id="@+id/RecLoginEmail"
+            android:layout_width="230dp"
+            android:layout_height="50dp"
+            android:hint="E-mail"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:ems="10"
+            android:inputType="textEmailAddress" />
+        <EditText
+            android:background="@drawable/edit_text_style2"
+            android:id="@+id/RecLoginPassword"
+            android:layout_width="230dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="50dp"
+            android:hint="Password"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/RecLoginButton"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="Login"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/rectangular_button_style_recipient"/>
+    </LinearLayout>
+</LinearLayout>

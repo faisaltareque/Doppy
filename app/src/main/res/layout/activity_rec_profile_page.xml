@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/donor_profile_page_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/donor_profile_page_dummy_face2"
+            />
+
+        <TextView
+            android:id="@+id/recProfilePageDonorName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Name"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/recProfilePageEditButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangular_button_style_donor_profile_page"
+            android:layout_marginTop="10dp"
+            android:text="Edit"
+            android:textColor="#4A1488"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:gravity="center_horizontal"
+        android:paddingTop="60dp"
+        android:orientation="vertical">
+
+
+        <!--<Button-->
+            <!--android:id="@+id/recProfilePageMyPostButton"-->
+            <!--android:layout_width="150dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:background="@drawable/rectangular_button_style_donor_profile_page2"-->
+            <!--android:text="MY POST"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textSize="18sp"-->
+            <!--android:textColor="#382574"/>-->
+
+        <Button
+            android:id="@+id/recProfilePageNewPostButton"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rectangular_button_style_donor_profile_page2"
+            android:text="POSTs"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#382574"/>
+
+    </LinearLayout>
+
+</LinearLayout>

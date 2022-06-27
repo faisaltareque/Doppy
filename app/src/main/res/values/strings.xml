@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Doppy</string>
+    <string-array name="itemnames">
+        <item>Books and Notes</item>
+        <item>Toys</item>
+        <item>School Supplies</item>
+        <item>Clothing</item>
+        <item>Shoes</item>
+        <item>Winter Clothing</item>
+        <item>Bags</item>
+        <item>Furniture</item>
+        <item>Electronic Appliances</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
